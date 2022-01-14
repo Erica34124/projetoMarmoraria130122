@@ -243,6 +243,9 @@ footer {
   .roller #rolltext {
     animation: slide-mob 5s infinite;
   }
+  #sidebarMenu{
+    z-index: 9999;
+  }
 
   @keyframes slide-mob {
     0% {
