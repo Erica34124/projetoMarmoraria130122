@@ -258,6 +258,10 @@ footer {
   body {
     font-size: 1em;
   }
+  .rato img{
+    width: 100px;
+    border-radius: 100%;
+  }
 
   .roller #rolltext {
     animation: hidden;
