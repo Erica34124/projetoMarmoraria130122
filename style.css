@@ -23,6 +23,7 @@ body {
 }
 .rato img {
   animation: logo infinite 20s linear;
+ 
 }
 @keyframes logo {
   from {
@@ -56,6 +57,7 @@ body {
   transform: translateX(-250px);
   transition: transform 250ms ease-in-out;
   background: linear-gradient(180deg, #5b0fc0 0%, #3f5efb 100%);
+  z-index: 9999;
 }
 
 .sidebarMenuInner {
