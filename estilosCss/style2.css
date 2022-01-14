@@ -7,10 +7,10 @@
  
   
   body {
-      background:linear-gradient(#f5e6ea 30%, #e49ab0 70%);
+      background:linear-gradient(#080405 30%, #050505 70%);
     
     color: aquamarine;
-    font-family: "Raleway", "sans-serif";
+    /* font-family: "Raleway", "sans-serif"; */
   }
   a {
     text-decoration: none;

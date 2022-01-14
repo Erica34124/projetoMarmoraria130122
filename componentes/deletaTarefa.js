@@ -1,4 +1,5 @@
 const BotaoDeleta = ()=>{
+    console.log('rodando em delete');
     const botao = document.createElement("button")
     botao.classList.add("del")
     botao.innerHTML = "Deletar"
