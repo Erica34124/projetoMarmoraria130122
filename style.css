@@ -41,7 +41,7 @@ body {
   width: 100%;
   max-width: 100%;
   box-shadow: none;
-  background-color: #19191f;
+  background-color: #0e1ac5;
   position: fixed;
   height: 60px !important;
   overflow: hidden;
@@ -244,6 +244,9 @@ footer {
     animation: slide-mob 5s infinite;
   }
   #sidebarMenu{
+    z-index: 9999;
+  }
+  .rodape{
     z-index: 9999;
   }
 
