@@ -43,7 +43,7 @@ export default function vendas() {
             ul.appendChild(li);
         }
         const total =document.createElement('li');
-        total.innerHTML =` <h3> Valor total :${tratar()}</h3>`;
+        total.innerHTML =` <h3> Valor total: R$ ${tratar().toFixed(2)}</h3>`;
         ul.appendChild(total);
         ul.classList.add('listaVendas');
         relatorio.appendChild(ul);
