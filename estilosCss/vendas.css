@@ -6,7 +6,18 @@
     margin-left: 10px;
 }
 .listaVendas{
-    color: cornsilk;
-    margin: 20px;
+    color: rgb(17, 16, 12);
+    margin:20px  1px 1px 1px;
     list-style: none;
+    background: #ffffff;
+    box-shadow: 2px 2px 4px 4px rgba(220, 215, 241, 0.5), 1px 4px 8px 0 rgba(224, 222, 245, 0.5);
+}
+.btnv{
+    display: flex;
+    
+    
+}
+.btnv button{
+    width: 180px;
+    margin: 10px;
 }
