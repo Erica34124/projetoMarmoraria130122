@@ -5,7 +5,7 @@
   <meta charset="UFT- 8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="../style.css">
   <title>Marmoraria</title>
 </head>
 
@@ -42,18 +42,123 @@
       </ul>
     </div>
   </header>
-  
-  <div class="main">
-    <h1>Vendas</h1>
-</div>
 
- 
-   
+
+  <div class="main financeiro">
+
+    <section class="container">
+
+      <div class="row">
+        <div class="contas col-md-12 titulo">
+          <h1>Vendas</h1>
+        </div>
+        <div class="col-md-6 cor">
+          <h3>vendas diárias</h3>
+          <div class="col-lg mb-5 ">
+            <form class="bg-light rounded box-shadow p-4 " action="">
+
+
+              <div>
+                <label for="clienteNome" class="form-label">
+                  <h5>Nome do cliente</h5>
+                </label>
+                <input type="text" class="form-control" id="clienteNome">
+              </div>
+              <div class="row">
+                <h5>Especificações</h5>
+                <div class="form-group col-md-6">
+                  <label for="mat" class="form-label">Material</label>
+                  <input type="text" class="form-control" id="mat">
+                </div>
+
+                <div class="form-group col-md-6">
+                  <label for="cor" class="form-label">Cor</label>
+                  <input type="text" class="form-control" id="cor">
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="lar" class="form-label">Largura</label>
+                  <input type="number" class="form-control" id="lar">
+                </div>
+
+                <div class="form-group col-md-6">
+                  <label for="alt" class="form-label">Altura</label>
+                  <input type="number" class="form-control" id="alt">
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="pro" class="form-label">Profundidade</label>
+                  <input type="number" class="form-control" id="pro">
+                </div>
+
+                <div class="form-group col-md-6">
+                  <label for="pre" class="form-label">Preço R$</label>
+                  <input type="number" class="form-control" id="pre">
+                </div>
+              </div>
+              <label for="cus" class="form-label">Custos de produção R$</label>
+              <input type="number" class="form-control" id="cus">
+
+              <div class="mb-3">
+                <label for="obs" class="form-label">Observações</label>
+                <textarea class="form-control" name="" id="obs" rows="4"></textarea>
+
+              </div>
+              <div>
+                <button type="submit" class="btn btn-primary" id="btnVendas" >Enviar dados</button>
+              </div>
+
+            </form>
+            <div class="col-md-12">
+              <span id="relatorio"></span>
+            </div>
+          </div>
+          <div class="col-md-5 cor">
+            <h3>vendas diárias</h3>
+            <div class="col-lg mb-5 ">
+              <form class="bg-light rounded box-shadow p-4 " action="">
+
+
+                <div>
+                  <label for="clienteNome" class="form-label">Nome</label>
+                  <input type="email" class="form-control" id="clienteNome">
+                </div>
+
+                <div class="form-group">
+                  <label for="clienteEmail" class="form-label">Email</label>
+                  <input type="text" class="form-control" id="clienteEmail">
+                </div>
+
+                <div class="mb-3">
+                  <label for="clienteMensagem" class="form-label">mensagem</label>
+                  <textarea class="form-control" name="" id="clienteMensagem" rows="4"></textarea>
+
+                </div>
+                <div>
+                  <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+                </div>
+
+              </form>
+
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+
+
+
+
   <footer class="rodape">
     <h4>Horário de funcionamento</h4>
-    
+
     Made by <a class="meninas" href="#">Segunda - Sexta das 8hs as 18hs</a>
   </footer>
   <script type="module" src="../script.js"></script>
 </body>
+
 </html>

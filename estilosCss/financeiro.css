@@ -1,0 +1,39 @@
+.financeiro{
+    color: #9091e2;
+}
+.contas{
+  
+    margin-bottom: 50px;
+}
+.form{
+    display: inline-block;
+    margin: 10px;
+}
+.blocoCustos{
+    display: flex;
+    margin: 10px auto;
+    align-items: center;
+}
+.cFixo{
+   
+    width: 50%;
+    height: 400px;
+    color: thistle;
+    margin-left: 40px;
+    
+}
+.box-shadow{
+box-shadow: 2px 2px 4px 4px rgba(220, 215, 241, 0.5), 1px 4px 8px 0 rgba(224, 222, 245, 0.5);
+}
+.cVariavel{
+   
+    width: 43%;
+    height: 400px;
+    color: thistle;
+    margin-left: 20px;
+}
+.formula{
+   display: block;
+    flex-wrap: wrap;
+    margin: 20px;
+}
