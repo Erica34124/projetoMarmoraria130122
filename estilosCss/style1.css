@@ -239,6 +239,9 @@ footer {
 
 @media screen and (max-width: 600px) {
   h1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:20px ;
     text-align: center;
     text-transform: uppercase;
     color: #2c13b9;
@@ -295,9 +298,10 @@ footer {
   h1{
     display: block;
     margin-right: 20px;
-    color: #0e1ac5;
+    color: #c5c7e9;
   }
   .rato img{
+    display: block;
     max-width: 100%;
     border-radius: 100%;
   }
